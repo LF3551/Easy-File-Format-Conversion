@@ -30,6 +30,7 @@
 
 ### Commands
 
+
 #### Convert Image
 Converts images between formats like JPEG, PNG, and WebP.
 ```bash
@@ -39,6 +40,8 @@ Example:
 ```bash
 node app.js convert-image --input=test.jpg --output=output.png
 ```
+
+
 #### Convert Text File
 Converts between CSV and JSON formats.
 ```bash
@@ -53,6 +56,8 @@ JSON → CSV:
 ```bash
 node app.js convert-text --input=test.json --output=output.csv
 ```
+
+
 #### Compress Folder
 Compresses a folder into a ZIP archive.
 ```bash
@@ -62,6 +67,8 @@ Example:
 ```bash
 node app.js compress --input=data --output=data.zip
 ```
+
+
 #### Decompress Archive
 Extracts a ZIP archive into a folder.
 ```bash
@@ -73,23 +80,6 @@ node app.js decompress --input=data.zip --output=data
 ```
 
 
-#### Convert Image
-Convert a JPEG file to PNG:
-```bash
-node app.js convert-image --input=test.jpg --output=output.png
-```
-Convert CSV to JSON:
-```bash
-node app.js convert-text --input=data.csv --output=data.json
-```
-Compress a folder into a ZIP archive:
-```bash
-node app.js compress --input=data --output=data.zip
-```
 
-Decompress a ZIP Archive
-```bash
-node app.js decompress --input=my_archive.zip --output=my_folder
-```
 ## License
 This project is licensed under the [Universal Permissive License (UPL), Version 1.0](https://opensource.org/licenses/UPL).
