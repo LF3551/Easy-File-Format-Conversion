@@ -1,3 +1,10 @@
+/**
+ * Copyright (c) 2024 Aleksei Aleinikov
+ *
+ * Licensed under the Universal Permissive License (UPL), Version 1.0
+ * You may obtain a copy of the License at https://opensource.org/licenses/UPL
+ */
+
 const yargs = require('yargs');
 const sharp = require('sharp');
 const archiver = require('archiver');

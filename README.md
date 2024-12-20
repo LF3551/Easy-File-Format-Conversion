@@ -18,7 +18,7 @@
 - Required npm packages: Install them by running the following:
   ```bash
   npm install
-
+```
 ###  Clone the repository:
    ```bash
    git clone https://github.com/LF3551/Easy-File-Format-Conversion.git
@@ -94,3 +94,5 @@ Decompress a ZIP Archive
 ```bash
 node app.js decompress --input=my_archive.zip --output=my_folder
 ```
+## License
+This project is licensed under the [Universal Permissive License (UPL), Version 1.0](https://opensource.org/licenses/UPL).
