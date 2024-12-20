@@ -86,10 +86,7 @@ Compress a folder into a ZIP archive:
 ```bash
 node app.js compress --input=data --output=data.zip
 ```
-Compress a Folder
-```bash
-node app.js compress --input=my_folder --output=my_archive.zip
-```
+
 Decompress a ZIP Archive
 ```bash
 node app.js decompress --input=my_archive.zip --output=my_folder
