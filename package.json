@@ -1,0 +1,26 @@
+{
+  "name": "easy-file-format-conversion",
+  "version": "1.0.0",
+  "description": "A command-line utility for converting files between different formats",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "file-conversion",
+    "image-conversion",
+    "archive",
+    "compression",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^5.3.2",
+    "csv-parse": "^5.6.0",
+    "csv-stringify": "^6.5.2",
+    "sharp": "^0.32.6",
+    "unzipper": "^0.10.14",
+    "yargs": "^17.7.2"
+  }
+}
